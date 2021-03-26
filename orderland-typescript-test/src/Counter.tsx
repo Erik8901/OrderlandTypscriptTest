@@ -4,7 +4,6 @@ import { useDispatch } from 'react-redux';
 import { Action } from './redux/actions/actions';
 
 
-
 //CSS
 import './styles/Counter.css';
 

@@ -23,10 +23,10 @@ ReactDOM.render(
             <Link to="/show-clicks">Show Clicks</Link>
           </nav>
           <Switch>
-            <Route exact path="/" component={App} /> 
+            <Route exact path="/" component={App} />
             <Route exact path="/counter" component={Counter} />
             <Route exact path="/show-clicks" component={ShowCount} />
-           </Switch>
+          </Switch>
         </div>
       </Router>
     </Provider>
