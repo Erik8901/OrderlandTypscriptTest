@@ -1,0 +1,31 @@
+.Counter {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  width: 14vw;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+  position: relative;
+  top: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-click {
+  background: #FC4A1A;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-click:hover {
+  background:#F78733;
+}
