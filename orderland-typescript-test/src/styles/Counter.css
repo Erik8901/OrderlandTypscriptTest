@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.links {
+.links-counter {
   display: flex;
-  width: 14vw;
+  width: 20%;
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
@@ -24,8 +24,15 @@ a {
   padding: 1rem;
   cursor: pointer;
   color: #fff;
+  border: none;
 }
 
 .btn-click:hover {
   background:#F78733;
+}
+
+@media screen and (max-width:1000px) {
+  .links-counter {
+    width: 70%;
+  }
 }

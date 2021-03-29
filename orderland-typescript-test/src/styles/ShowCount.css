@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.links {
+.links-show-count {
   display: flex;
-  width: 14vw;
+  width: 20%;
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
@@ -15,4 +15,14 @@
 a {
   text-decoration: none;
   color: #000;
+}
+
+.amount {
+  color: #F78733;
+}
+
+@media screen and (max-width:1000px) {
+  .links-show-count {
+    width: 70%;
+  }
 }

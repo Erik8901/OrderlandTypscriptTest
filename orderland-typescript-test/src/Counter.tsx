@@ -18,9 +18,9 @@ function Counter() {
     <div className="Counter">
       <h1>Counter Page</h1>
       <div>
-        <div className="btn-click" onClick={increment}>Click This Button!</div>
+        <button className="btn-click" onClick={increment}>Click This Button!</button>
       </div>
-      <div className="links">
+      <div className="links-counter">
         <Link to="/">Home</Link>
         <Link to="/show-clicks">To Show Clicks Page</Link>
       </div>

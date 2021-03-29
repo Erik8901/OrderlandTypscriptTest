@@ -13,8 +13,8 @@ function ShowCount() {
   return (
     <div className="ShowCount">
       <h1>ShowCount Page</h1>
-      <span>You have clicked the button {count} times!</span>
-      <div className="links">
+      <h3>You have clicked the button <span className="amount">{count}</span> times!</h3>
+      <div className="links-show-count">
         <Link to="/">Home</Link>
         <Link to="/counter">Go To Counter Page</Link>
       </div>
